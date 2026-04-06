@@ -1,0 +1,3 @@
+RewriteRule ^sqldev/?$ sqldev/index.php [L,QSA]
+RewriteRule ^sqldev/api\.php$ sqldev/api.php [L,QSA]
+RewriteRule ^sqldev/export_csv\.php$ sqldev/export_csv.php [L,QSA]
