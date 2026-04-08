@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 $query = isset($_POST['query']) ? (string) $_POST['query'] : '';
-print_r($query); exit;
+//print_r($query); exit;
 $v = sqldev_validate_select_query($query);
 if (!$v['ok']) {
 	http_response_code(400);
